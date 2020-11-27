@@ -636,13 +636,13 @@ while 100>peuple>0 and 100>armee>0 and 100>argent>0 and 100>influence>0:
                 consequence2event()
                 print(resultat)
         annee=annee+1
-if peuple>=0 :
+if peuple<=0 :
     print("Affamé et ruiné, les habitants vous firent executer.")
-elif armee>=0 :
+elif armee<=0 :
     print("Votre armée, trop faible, ne sut defendre la ville contre les ataques de l'ennemi.")
-elif argent>=0 :
-    print("Ruiné, vous futes ejecté par les plus riches.")
-elif influence>=0 :
+elif argent<=0 :
+    print("Ruiné, vous avez été ejecté par les plus riches.")
+elif influence<=0 :
     print("Un senateur ayant perdu foi en vous, il vous assasina lachement avec un poignard.")
 
 
