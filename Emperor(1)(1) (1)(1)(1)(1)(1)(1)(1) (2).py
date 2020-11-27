@@ -489,11 +489,11 @@ while 100>peuple>0 and 100>armee>0 and 100>argent>0 and 100>influence>0:
             def consequence1event():
                 global peuple,armee,argent,influence
                 argent,peuple=argent-10,peuple+10
-                resultat="Le peuple n'était pas vraiment en danger, mais il fut rassuré par ces murs.")
+                resultat="Le peuple n'était pas vraiment en danger, mais il fut rassuré par ces murs."
             def consequence2event():
                 global peuple,armee,argent,influence
                 peuple=peuple-15
-                resultat="Après avoir quitté la salle, il alla racconter a tout le monde son reve, ce qui terrifia le peuple durant des jours.")
+                resultat="Après avoir quitté la salle, il alla racconter a tout le monde son reve, ce qui terrifia le peuple durant des jours."
         elif randomoracle==2 :
             event="Un consul m’a manqué de respect et m’a dit que je devrais être emprisonné car un humain ne peut pas avoir des visions."
             reponse1event="1-Il a raison. GARDES !"
@@ -639,7 +639,7 @@ while 100>peuple>0 and 100>armee>0 and 100>argent>0 and 100>influence>0:
 if peuple<=0 :
     print("Affamé et ruiné, les habitants vous firent executer.")
 elif armee<=0 :
-    print("Votre armée, trop faible, ne sut defendre la ville contre les ataques de l'ennemi.")
+    print("Votre armée, trop faible, ne sut defendre la ville contre les attaques de l'ennemi.")
 elif argent<=0 :
     print("Ruiné, vous avez été ejecté par les plus riches.")
 elif influence<=0 :
