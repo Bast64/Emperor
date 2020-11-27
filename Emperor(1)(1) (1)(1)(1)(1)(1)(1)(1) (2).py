@@ -1,5 +1,5 @@
 from random import*
-#https://docs.google.com/document/d/1CtQ28_5EbubqkQx8SyDfMNdcTejZ4NYBTpWc4KLkUrI/edit
+#https://docs.google.com/document/d/1ADUjig8roC-wl0k1RxD_Z5GKRoHOmPdKrOB6ZBBNvK0/edit
 inutile=""
 stop=0
 def menu():
